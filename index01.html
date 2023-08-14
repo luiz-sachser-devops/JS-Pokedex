@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+       
+        h1 {
+            color: blue;
+            text-align: center;
+        }
+
+        p {
+            color: red;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+    <h1>My first website</h1>
+    <p>My first site is being developed together with JavaScript Bootcam from DIO</p>
+<button id="btnTest" type="button">
+    Test
+</button>
+
+<script>
+    const btnTest = document.getElementById("btnTest")
+    btnTest.addEventListener("click", function() {
+        console.log('Clicked the button!')    
+    })
+</script>
+
+
+</body>
+</html>
